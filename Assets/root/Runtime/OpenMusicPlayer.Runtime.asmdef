@@ -1,5 +1,5 @@
 {
-    "name": "Package.Runtime",
+    "name": "OpenMusicPlayer.Runtime",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [

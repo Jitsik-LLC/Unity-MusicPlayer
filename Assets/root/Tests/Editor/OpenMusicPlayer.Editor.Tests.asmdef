@@ -1,10 +1,14 @@
 {
-    "name": "Package.Tests",
+    "name": "OpenMusicPlayer.Editor.Tests",
     "references": [
         "UnityEngine.TestRunner",
-        "Package.Runtime"
+        "UnityEditor.TestRunner",
+        "OpenMusicPlayer.Runtime",
+        "OpenMusicPlayer.Editor"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

@@ -1,7 +1,7 @@
 {
-    "name": "Package.Editor",
+    "name": "OpenMusicPlayer.Editor",
     "references": [
-        "Package.Runtime"
+        "OpenMusicPlayer.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
