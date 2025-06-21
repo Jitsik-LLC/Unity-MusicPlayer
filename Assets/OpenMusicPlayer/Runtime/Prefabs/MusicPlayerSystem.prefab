@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &393718012189213391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3591149235464968657}
+  - component: {fileID: 4622952294286771246}
+  m_Layer: 0
+  m_Name: MusicPlayerSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3591149235464968657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393718012189213391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4622952294286771246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393718012189213391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2809d1d99ebb9a0c88533a871c75817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playlistAsset: {fileID: 11400000, guid: 2a371f667021746d2ad5819544dc65c7, type: 2}
+  playlist:
+  - title: Filtered piano
+    artist: Erokia
+    clip: {fileID: 8300000, guid: f8379c5d75a11feba83880c70bb603f2, type: 3}
+    coverArt: {fileID: 21300000, guid: 5f2be6c601373fd4bb0f767921023007, type: 3}
+  - title: Lofi Jazz
+    artist: Holizna
+    clip: {fileID: 8300000, guid: 2d03bf1b817aee78cb072cfbf11e3031, type: 3}
+    coverArt: {fileID: 21300000, guid: 2ceb8f023bff4c643851bb50ec8eeab3, type: 3}
+  - title: Miami 88
+    artist: Logic Moon
+    clip: {fileID: 8300000, guid: 7c5e2f3e9abcddefebbabd11a0a9b5ac, type: 3}
+    coverArt: {fileID: 21300000, guid: 9329ddcdd538aae4389f3cb3b2953832, type: 3}
+  loop: 1
+  shuffle: 1
+  volume: 0.85
+  defaultSong:
+    title: Press Play
+    artist: to Start Music
+    clip: {fileID: 0}
+    coverArt: {fileID: 21300000, guid: 90ec97177b1ebb4498409b0e20a2c110, type: 3}
+  loopPlaylist: 1
+  playOnStart: 0
+  volumeDelta: 0.1
+  endOfSongThreshold: 0.1
+  progressUpdateInterval: 0.1

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1247cb369efe4e479c4d281e0580533f, type: 3}
+  m_Name: Music Playlist Sample
+  m_EditorClassIdentifier: 
+  songs:
+  - title: City Sunshine
+    artist: Kevin MacLeod
+    clip: {fileID: 8300000, guid: 96f12db87df0d6f06ba1a34e0ed57b68, type: 3}
+    coverArt: {fileID: 21300000, guid: d64c1ceaa873482c382ddcd2b926cff1, type: 3}
+    url: https://freepd.com/music/City%20Sunshine.mp3
+    license: Public Domain
+  - title: Sonata No. 13 in E Flat Major, Op. 27 No. 1 - II. Allegro molto e vivace
+    artist: Daniel Veesey
+    clip: {fileID: 8300000, guid: 39c002dcd1ad9c3c79c2ec2065b56a87, type: 3}
+    coverArt: {fileID: 21300000, guid: 4353fa2220837273b90f046cdfd8d769, type: 3}
+    url: https://freemusicarchive.org/music/Daniel_Veesey/Beethovens_Sonata_No_13_in_E_Flat_Major/Sonata_No_13_in_E_Flat_Major_Op_27_No_1_-_II_Allegro_molto_e_vivace/
+    license: Public Domain
+  - title: Giovanni Croce's Cantato Domino
+    artist: Anonymous Choir
+    clip: {fileID: 8300000, guid: 28fe027778d93ca0993f77231e98c079, type: 3}
+    coverArt: {fileID: 21300000, guid: 3b0942a3c0cb8d6d4802c0c80cd9422d, type: 3}
+    url: https://freemusicarchive.org/music/Anonymous_Choir/Giovanni_Croces_Cantato_Domino
+    license: Public Domain
+  - title: Saber humming
+    artist: arnaljl
+    clip: {fileID: 8300000, guid: b917b1bea596e462b86785655974c2bb, type: 3}
+    coverArt: {fileID: 0}
+    url: https://freesound.org/people/arnaljl/sounds/67878/
+    license: Creative Commons 0
+  - title: Motions
+    artist: Orchestralis
+    clip: {fileID: 8300000, guid: 71313f6e7c68bf86e9870e7bd754aa09, type: 3}
+    coverArt: {fileID: 21300000, guid: e5ff996d1c6ff8d24bdddc526ee041cd, type: 3}
+    url: https://freepd.com/music/Motions.mp3
+    license: Public Domain
+  title: My Playlist
+  shuffleByDefault: 0
+  loopByDefault: 1
+  defaultVolume: 0.85
