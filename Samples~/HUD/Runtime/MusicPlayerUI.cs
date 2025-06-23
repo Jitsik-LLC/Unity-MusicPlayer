@@ -1,4 +1,3 @@
-using NaughtyAttributes;
 using OpenMusicPlayer.Core;
 using TMPro;
 using UnityEngine;
@@ -187,13 +186,13 @@ namespace OpenMusicPlayer.Samples.HUD
        }
        
        // UI Event Handlers
-        [Button] public void OnDecreaseVolume() => _player.DecreaseVolume();
-        [Button] public void OnIncreaseVolume() => _player.IncreaseVolume();
-        [Button] public void OnLoopToggle() => _player.ToggleLoop();
-        [Button] public void OnNext() => _player.NextTrack();
-        [Button] public void OnPlayPause() => _player.TogglePlayPause();
-        [Button] public void OnPrevious() => _player.PreviousTrack();
-        [Button] public void OnShuffleToggle() => _player.ToggleShuffle();
+        public void OnDecreaseVolume() => _player.DecreaseVolume();
+        public void OnIncreaseVolume() => _player.IncreaseVolume();
+        public void OnLoopToggle() => _player.ToggleLoop();
+        public void OnNext() => _player.NextTrack();
+        public void OnPlayPause() => _player.TogglePlayPause();
+        public void OnPrevious() => _player.PreviousTrack();
+        public void OnShuffleToggle() => _player.ToggleShuffle();
         private void OnVolumeChanged(float value) => _player.SetVolume(value);
     }
 }
