@@ -1,5 +1,6 @@
 {
     "name": "OpenMusicPlayer.Editor",
+    "rootNamespace": "OpenMusicPlayer",
     "references": [
         "OpenMusicPlayer.Runtime"
     ],
