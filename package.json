@@ -1,13 +1,13 @@
 {
     "name": "dev.oxido.openmusicplayer",
-    "displayName": "Music Player",
+    "displayName": "Open Music Player",
     "author": {
         "name": "Jaime Hernandez",
         "email": "aestial@me.com",
         "url": "https://github.com/Aestial"
     },
     "license": "MIT",
-    "version": "0.1.4",
+    "version": "0.1.6",
     "unity": "2019.4",
     "description": "Open and simple music playback system based on Events and ScriptableObjects playlists",
     "keywords": [
