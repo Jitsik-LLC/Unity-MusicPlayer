@@ -7,7 +7,7 @@
         "url": "https://github.com/Aestial"
     },
     "license": "MIT",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "unity": "2019.4",
     "description": "Open and simple music playback system based on Events and ScriptableObjects playlists",
     "keywords": [
@@ -25,14 +25,18 @@
         "type": "git",
         "url": "git@github.com:Aestial/Unity-OpenMusicPlayer.git"
     },
-    "dependencies": {
-      "com.unity.textmeshpro": "3.0.9", 
-      "com.unity.ugui": "1.0.0", 
-      "com.unity.modules.imgui": "1.0.0",
-      "com.unity.modules.audio": "1.0.0", 
-      "com.unity.modules.ui": "1.0.0", 
-      "com.unity.modules.uielements": "1.0.0", 
-      "com.dbrizov.naughtyattributes": "2.1.4"
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "2.1.4",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.textmeshpro": "3.0.9",
+    "com.unity.toolchain.linux-x86_64": "2.0.10",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
   },
   "scopedRegistries": [
     {
