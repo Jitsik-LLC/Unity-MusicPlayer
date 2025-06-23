@@ -1,6 +1,6 @@
 {
     "name": "dev.oxido.openmusicplayer",
-    "displayName": "Open Music Player",
+    "displayName": "Music Player",
     "author": {
         "name": "Jaime Hernandez",
         "email": "aestial@me.com",
@@ -26,10 +26,8 @@
         "url": "git@github.com:Aestial/Unity-OpenMusicPlayer.git"
     },
   "dependencies": {
-    "com.dbrizov.naughtyattributes": "2.1.4",
     "com.unity.test-framework": "1.1.33",
     "com.unity.textmeshpro": "3.0.9",
-    "com.unity.toolchain.linux-x86_64": "2.0.10",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
@@ -38,21 +36,11 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0"
   },
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.dbrizov.naughtyattributes",
-        "com.openupm"
-      ]
-    }
-  ],
   "samples": [
       {
           "displayName": "HUD Samples",
           "description": "Multiple music player HUD views",
-          "path": "Samples"          
+          "path": "Samples~/HUD"          
       }
   ]   
 }
