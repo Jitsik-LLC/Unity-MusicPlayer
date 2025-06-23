@@ -7,7 +7,7 @@
         "url": "https://github.com/Aestial"
     },
     "license": "MIT",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "unity": "2019.4",
     "description": "Open and simple music playback system based on Events and ScriptableObjects playlists",
     "keywords": [
