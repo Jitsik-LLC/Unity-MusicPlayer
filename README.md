@@ -36,6 +36,11 @@ openupm add https://github.com/yourusername/OpenMusicPlayer.git
     player.SetVolume(0.7f);
     ```
 
+## Samples 
+Import samples from the Package Manager details on Open Music Player. 
+1. If not found in project, you will be asked to Import `TextMeshPro` Essentials because we are using the base font.
+2. Reload any current Sample scene if already loaded.
+
 ## Best Practices
 1. **Use ScriptableObjects** for playlist management - makes it easy to swap playlists.
 2. **Subscribe to events** rather than polling for state changes.
